@@ -1,0 +1,35 @@
+; Memory addresses of NES hardware registers
+PPU_CTRL             = $2000    ; PPU Control register
+PPU_MASK             = $2001    ; PPU Mask register
+PPU_STATUS           = $2002    ; PPU Status register
+OAM_ADDR             = $2003    ; OAM Address register
+OAM_DATA             = $2004    ; OAM Data register
+PPU_SCROLL           = $2005    ; PPU Scroll register
+PPU_ADDR             = $2006    ; PPU Address register
+PPU_DATA             = $2007    ; PPU Data register
+APU_START            = $4000    ; APU Start register
+APU_SQ0_SWEEP        = $4001    ; APU Square Wave 0 Sweep register
+APU_SQ0_TIMER        = $4002    ; APU Square Wave 0 Timer register
+APU_SQ0_LENGTH       = $4003    ; APU Square Wave 0 Length register
+APU_SQ1_DUTY         = $4004    ; APU Square Wave 1 Duty register
+APU_SQ1_SWEEP        = $4005    ; APU Square Wave 1 Sweep register
+APU_SQ1_TIMER        = $4006    ; APU Square Wave 1 Timer register
+APU_SQ1_LENGTH       = $4007    ; APU Square Wave 1 Length register
+APU_TRG_LINEAR       = $4008    ; APU Triangle Linear Counter register
+APU_TRG_TIMER        = $400A    ; APU Triangle Timer register
+APU_TRG_LENGTH       = $400B    ; APU Triangle Length Counter register
+APU_NOISE_VOLUME     = $400C    ; APU Noise Volume register
+APU_NOISE_PERIOD     = $400E    ; APU Noise Period register
+APU_NOISE_LENGTH     = $400F    ; APU Noise Length Counter register
+APU_DMC_FREQ         = $4010    ; APU DMC Frequency register
+APU_DMC_COUNTER      = $4011    ; APU DMC Counter register
+APU_DMC_ADDR         = $4012    ; APU DMC Address register
+APU_DMC_LENGTH       = $4013    ; APU DMC Length Counter register
+OAM_DMA              = $4014    ; OAM DMA register
+APU_STATUS           = $4015    ; APU Status register
+JOYPAD_PORT1         = $4016    ; Joypad Port 1 register
+JOYPAD_PORT2         = $4017    ; Joypad Port 2 register
+
+SPRITE               = $0200    ; Sprite memory start address
+TILE_TABLE           = $0600 
+SPR_TABLE            = $0700

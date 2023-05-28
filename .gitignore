@@ -1,0 +1,6 @@
+*.chr
+*.prg
+*.o
+*.nes
+*.map
+gfx/*.png
