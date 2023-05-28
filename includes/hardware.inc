@@ -30,6 +30,6 @@ APU_STATUS           = $4015    ; APU Status register
 JOYPAD_PORT1         = $4016    ; Joypad Port 1 register
 JOYPAD_PORT2         = $4017    ; Joypad Port 2 register
 
-SPRITE               = $0200    ; Sprite memory start address
+SPRITE_RAM           = $0200    ; Sprite memory start address
 TILE_TABLE           = $0600 
 SPR_TABLE            = $0700
