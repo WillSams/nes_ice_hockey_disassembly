@@ -16,15 +16,15 @@ sudo apt install build-essential cc65
 
 ### Building
 
-To build the disassembly, run the following command:
+To build the disassembly, you'll need to place the place a rom of the original game in the root of this repository (renamed as "original.nes") and then run the following commands:
 
 ```bash
-make
+make extract && make
 ```
 
-Any changings to the disassembly will require you to run the above command again.
+To execute the built binary, `make run` will do if you have the **DEBUGGER** variable in the Makefile set to a emulator on your system.
 
-If you want to build from your own copy of the game, you'll need to place the place it in the root of this repository and re-name it to `original.nes`.  Then run the following command `make extract` to extract the PRG and CHR roms.  You can then run `make program` to create a new **program.s** file you can hack at.
+Any changings to the disassembly will require you to run the `make` command again.
 
 ## Included Tools
 
